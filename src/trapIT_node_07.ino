@@ -11,7 +11,7 @@ char thingspeak_ch[17] = "D2Z5FUVJTW3C73PZ";      // thingspeak channel
 #define node_addr         7                      // NODE ADDRESS
 
 #define   RechargePeriod  60                    // Period in seconds to recharge the capacitor
-unsigned int idlePeriodInMin = 15;                // TIME IN MINUTES BETWEEN 2 READING & TRANSMISSION
+unsigned int idlePeriodInMin = 5;                // TIME IN MINUTES BETWEEN 2 READING & TRANSMISSION
 
 // CONFIGURATION END
 
